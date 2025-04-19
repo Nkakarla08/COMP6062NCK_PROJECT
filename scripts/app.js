@@ -29,7 +29,7 @@ const app = Vue.createApp({
   
     methods: {
       fetchUser() {
-        fetch('http://comp6062.liamstewart.ca/random-user-profile')
+        fetch('https://comp6062.liamstewart.ca/random-user-profile')
           .then(response => response.json())
           .then(data => {
             this.user.name = data.first_name + ' ' + data.last_name;
@@ -39,7 +39,7 @@ const app = Vue.createApp({
       },
   
       fetchWeather() {
-        const url = `http://comp6062.liamstewart.ca/weather-information?city=${this.weather.city}&province=${this.weather.province}&country=${this.weather.country}`;
+        const url = `https://comp6062.liamstewart.ca/weather-information?city=${this.weather.city}&province=${this.weather.province}&country=${this.weather.country}`;
         fetch(url)
           .then(response => response.json())
           .then(data => {
