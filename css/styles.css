@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header {
+    background-color:burlywood;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+  }
+  
+  h2 {
+    color:palevioletred;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+ 
+  section {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+  }
+  
+  .user-photo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-column {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: yellowgreen;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background:gold;
+    color: white;
+  }
+  
+  .input-group {
+    margin-top: 10px;
+  }
+  
+  .center-input {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    section {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .profile-column {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .center-input {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  
